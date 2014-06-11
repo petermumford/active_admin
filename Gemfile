@@ -14,8 +14,8 @@ gem 'arbre', github: 'gregbell/arbre' # until gregbell/arbre#16 makes it into an
 gem 'sass-rails', '4.0.3' if rails_version[0] == '4' # #3005, #3093
 
 # Added fix for Base conflict - see https://github.com/the-teacher/the_role/issues/42 && https://github.com/gregbell/active_admin/issues/2908
-# gem 'inherited_resources', '~> 1.4.0'
-gem 'inherited_resources', github: 'petermumford/inherited_resources'
+gem 'inherited_resources', '~> 1.4.0'
+# gem 'inherited_resources', github: 'petermumford/inherited_resources'
 
 # Optional dependencies
 gem 'cancan'
